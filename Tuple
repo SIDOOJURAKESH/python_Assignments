@@ -1,0 +1,33 @@
+tup=10,34.56,
+"python",10
+a,b,c,d=tup
+print(a)
+10
+print(b)
+34.56
+print(c)
+python
+print(d)
+10
+print(tup)
+(10,34.56,'python',10)
+a=(10,20,30,40)
+print(len(a))
+4
+print((10,20)+(15,25))
+(10, 20, 15, 25)
+a=(1,0,1)
+print(all(a))
+False
+a=(1,0,0,1)
+print(any(a))
+True
+a=(11,22,33)
+print(list(enumerate(a)))
+[(0, 11), (1, 22), (2, 33)]
+a=(11,22,33)
+print(list(enumerate(a,100)))
+[(100, 11), (101, 22), (102, 33)]
+a=(11,22,33,44)
+print(len(a))
+4
