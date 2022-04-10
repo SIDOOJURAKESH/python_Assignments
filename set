@@ -1,0 +1,21 @@
+a={}
+type(a)
+<class 'dict'>
+a={0}
+type(a)
+<class 'set'>
+a=set()
+type(a)
+<class 'set'>
+x=set()
+bool(x)
+False
+x={42,'hello',(1,2,3),None}
+'hello'in x
+True
+24 in x
+False
+s={"c","c++","java"}
+s.add("python")
+print(s)
+{'java', 'c', 'c++', 'python'}
