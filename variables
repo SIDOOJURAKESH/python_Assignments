@@ -1,0 +1,109 @@
+#variables
+'''a=b=c=5
+print(a,b,c)
+
+a,b,c,d=10,20.5,"python",True
+print(a,b,c,d)
+print(d,c,b,a)
+
+a=None=2
+print(a) #error
+
+txt="my name is{fname},i'm{age}years old.".format(fname="Dolly",age=2)
+
+txt="my name is{0},i'm{1}years old.".format("dolly",2)
+txt="my name is{},i'm{}years old.".format("dolly",2)
+#type()function
+a=10
+type(a)
+str="python"
+type(str)
+a=2.0
+b = 3.36
+print(a+b)
+value=10.20
+type(value)
+comp=complex(2,8)
+print(comp)
+type(comp)
+#typecasting
+a=10
+b=0.5
+c=0
+type(c)
+c=a+b
+type(c)
+a=10
+float(a)
+b=10.5
+int(b)
+int("python")
+comp=complex(2,8)
+print(comp)
+int(comp)
+#id()function
+id(1)
+x=1
+id(x)
+y='python'
+id(y)
+id('python')
+id(1.0)
+id(1.00)
+id(3)
+id(1+2)
+x=2+1
+id(x)
+id(4)-id(5)
+#function decleration
+def sum():
+print("in sum function")
+return
+sum()
+def diff():
+print("in diff function")
+return
+diff()
+#local and global varables
+def m1():
+a=10
+print(a)
+return
+m1()
+def m2():
+print(a)
+return
+m2()
+def m1():
+a=10
+print(a)
+return
+m1()
+def m2():
+print(a)
+return
+m2(20)
+a=30
+def m1():
+print(a)
+return
+def m2():
+a=20
+print(a)
+return
+m1()
+m2()
+a=20
+def test():
+a=a+10
+return
+test()
+
+a=20
+def test():
+global a
+a=a+10
+print(a)
+return
+test()
+print(a)
