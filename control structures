@@ -1,0 +1,42 @@
+#control structures
+#sequence
+day=input()
+saturday
+print("today is"+day)
+today issaturday
+
+#selection
+x=5
+if x > 0:
+    print("x is +ve")
+
+
+
+ if x>0:
+     print("x is +ve")
+     else:
+         print("x is not +ve")
+         
+x=int(intput())
+if x >0:
+    print("x is +ve")
+    elif x<0:
+        print("x is -ve")
+        else:
+            print("x is 0")
+            
+#iteration(loops)
+for x in["c","c++","python"]:
+print(x)
+a=10
+while a>0:
+    print("a is:",a)
+    a=a-2
+
+   o/p: 
+a is: 10
+a is: 8
+a is: 6
+a is: 4
+a is: 2
+            
