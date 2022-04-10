@@ -33,4 +33,11 @@ print(x)
      print("a:"a)
      print("b:",b)
      return
+     
+  def varableArgs(*a):
+      print("list:",a)
+      return
+    variableArgs(10,20)
+    variableArgs(10,20,30,40)
+    variableArgs(10,20,'python')   
     func(10,20)
